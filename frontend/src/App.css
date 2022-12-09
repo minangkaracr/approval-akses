@@ -1,0 +1,216 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.bg {
+  background-image: url('./images/img-background.png');
+  background-size : cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.logo-1 {
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  /* max-width: 100%; */
+  height: 3000px;
+  z-index: -1;
+}
+
+.logo-akses {
+  max-width: 80px;
+}
+
+.logo-akses-point{
+  transition: transform .72s ease;
+}
+
+.logo-akses-point:hover {
+  scale: 1.2;
+}
+
+.font-link {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: small;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media only screen and (min-width: 425px) {
+
+  .logo {
+    max-width: 105px;
+  }
+  
+  .logo-akses {
+    max-width: 40px;
+  }
+  
+  .font-link {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .input-group{
+    max-width: 280px;
+    padding-left: 30px;
+  }
+
+  .form-control {
+    height: 24px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .logo {
+    max-width: 140px;
+  }
+  
+  .logo-akses {
+    max-width: 50px;
+  }
+  
+  .font-link {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .input-group{
+    max-width: 280px;
+    padding-left: 30px;
+  }
+
+  .form-control {
+    height: 24px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .logo {
+    max-width: 160px;
+  }
+  
+  .logo-akses {
+    max-width: 60px;
+  }
+  
+  .font-link {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .input-group{
+    max-width: 280px;
+    padding-left: 30px;
+  }
+
+  .form-control {
+    height: 28px;
+  }
+}
+
+
+@media only screen and (min-width: 1400px) {
+
+  .logo {
+    max-width: 180px;
+  }
+  
+  .logo-akses {
+    max-width: 80px;
+  }
+  
+  .font-link {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  .input-group{
+    max-width: 280px;
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+
+  .logo {
+    max-width: 80px;
+  }
+  
+  .logo-akses {
+    max-width: 40px;
+  }
+  
+  .font-link {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .input-group{
+    max-width: 280px;
+    padding-left: 30px;
+  }
+
+  .form-control {
+    height: 24px;
+  }
+}
+
+
